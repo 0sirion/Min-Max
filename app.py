@@ -7,7 +7,7 @@ import streamlit as st
 def main():
 
   st.title('Min & Max value')
-  st.subheader("Pleas insert 5 numbers: I'll tell you the bigger and smaller")
+  st.subheader("Pleas insert five numbers: I'll tell you the bigger and smaller")
 
 
 
