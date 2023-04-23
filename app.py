@@ -26,7 +26,7 @@ def main():
         unsafe_allow_html=True
     )
 
-
+st.slider(label='Choose a number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
 
 
 
