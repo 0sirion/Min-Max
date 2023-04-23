@@ -9,7 +9,7 @@ def main():
   title = '<h1 style="color:#AA4A44	;text-align:center; font-size: 5rem">Min and Max</h1>'
   st.markdown(title, unsafe_allow_html=True)
 
-  sub_heading = '<p style="color:#CC5500;text-align:center; font-size: 2rem">Please give me five numbers</p>'
+  sub_heading = '<p style="color:#4861C9;text-align:center; font-size: 2rem">Please give me five numbers</p>'
   st.markdown(sub_heading, unsafe_allow_html=True)
 
 #   st.subheader("Please insert five numbers: I'll tell you the bigger and smaller")
