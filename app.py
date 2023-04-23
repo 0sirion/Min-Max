@@ -6,7 +6,7 @@ st.markdown(title, unsafe_allow_html=True)
 sub_heading = '<p style="color:#4861C9;text-align:center; font-size: 2rem">Please give me five numbers</p>'
 st.markdown(sub_heading, unsafe_allow_html=True)
 
-st.button('Retrive value')
+
 
 #   st.subheader("Please insert five numbers: I'll tell you the bigger and smaller")
 st.markdown(
@@ -27,6 +27,7 @@ st.markdown(
 
 def main():
     st.slider(label='Choose a number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
+    st.button('Retrive value')
 
 
 
