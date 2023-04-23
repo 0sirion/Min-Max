@@ -6,8 +6,9 @@ import streamlit as st
 
 def main():
 
-  st.title = '<h1 color:red>Min and Max</h1>'
-  
+  title = '<h1 color:red>Min and Max</h1>'
+  st.markdown(title,unsafe_allow_html=True)
+
   st.subheader("Pleas insert five numbers: I'll tell you the bigger and smaller")
   st.markdown(
         f"""
