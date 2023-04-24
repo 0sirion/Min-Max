@@ -47,16 +47,5 @@ def main():
      x3 = st.slider(label='Choose the third  number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
 
      st.write(calculate_max(x1,x2,x3))
-
-
-
-                   
-           
-
-
-    
-
-
-
 if __name__ == '__main__':
     main()
