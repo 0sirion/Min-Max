@@ -39,11 +39,17 @@ def main():
 
    def calculate_min_max(num1, num2, num3):
        if num1 > num2 and num1 > num3:
-           st.write("Highest number is" + num1)
-           if num2 > num1 and num2 > num3:
-               st.write("Highest number is" + num2)
-               if num3 > num1 and num3 > num2:
-                   st.write("Highest number is" + num3)
+           case1 =st.write("Highest number is" + num1)
+           return case1
+       if num2 > num1 and num2 > num3:
+           case2 =st.write("Highest number is" + num2)
+           return case2
+       if num3 > num1 and num3 > num2:
+           case3 =st.write("Highest number is" + num3)
+           return case3
+       
+st.write('Biggest number is ', calculate_min_max(x1,x2,x3) )
+
 
                    
            
