@@ -30,7 +30,6 @@ st.markdown(
 def main():
    slider = st.slider(label='Choose a number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
    button =st.button('Retrieve value')
-   print(st.slider.)
 
 
     
