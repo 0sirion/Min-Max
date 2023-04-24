@@ -25,15 +25,7 @@ st.markdown(" :red[Please give me 3 numbers, I'll give you the smaller and bigge
 #     )
 
 def calculate_max(num1:float, num2:float, num3:float):
-       if num1 > num2 and num1 > num3:
-           case1 =st.write("Highest number is" + num1)
-           return case1
-       if num2 > num1 and num2 > num3:
-           case2 =st.write("Highest number is" + num2)
-           return case2
-       if num3 > num1 and num3 > num2:
-           case3 =st.write("Highest number is" + num3)
-           return case3
+       print(num1,num2, num3)
 
    
 
