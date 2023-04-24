@@ -35,15 +35,21 @@ def calculate_max(num1:float, num2:float, num3:float):
            case3 =st.write("Highest number is" + num3)
            return case3
 
-x1 = st.slider(label='Choose the first number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
    
-x2 = st.slider(label='Choose the second number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
 
-x3 = st.slider(label='Choose the third  number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
 
 
 def main():
-    calculate_max(x1,x2,x3)
+     x1 = st.slider(label='Choose the first number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
+
+     x2 = st.slider(label='Choose the second number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
+
+     x3 = st.slider(label='Choose the third  number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
+
+     st.write(calculate_max(x1,x2,x3))
+
+
+
                    
            
 
