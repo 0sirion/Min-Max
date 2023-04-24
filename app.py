@@ -26,7 +26,7 @@ st.markdown(" :red[Please give me 3 numbers, I'll give you the smaller and bigge
 
 def calculate_max(num1:float, num2:float, num3:float):
      if num1 > num2 and num1 > num3:
-           return st.write("Highest number is: ", num1)
+           return st.write("Higqqqqqhest number is: ", num1)
      elif num2 > num1 and num2 > num3:
           return st.write("Highest number is: ", num2)
      elif num3 > num1 and num3 > num2:
@@ -36,7 +36,7 @@ def calculate_max(num1:float, num2:float, num3:float):
 
 def calculate_min(num1:float, num2:float, num3:float):
      if num1 < num2 and num1 < num3:
-           return st.write("Minor number is: ", num1)
+           return st.write("Miqqqqqnor number is: ", num1)
      elif num2 < num1 and num2 < num3:
           return st.write("Minor number is: ", num2)
      elif num3 < num1 and num3 < num2:
