@@ -35,7 +35,7 @@ def main():
 
    x3 = st.slider(label='Choose the third  number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
 
-   button =st.button('Retrieve value', on_click= calculate_min_max)
+#    button =st.button('Retrieve value', on_click= calculate_min_max)
 
    def calculate_min_max(num1, num2, num3):
        if num1 > num2 and num1 > num3:
