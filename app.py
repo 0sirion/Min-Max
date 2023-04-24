@@ -3,10 +3,10 @@ import streamlit as st
 title = '<h1 style="color:#AA4A44	;text-align:center; font-size: 5rem">Min and Max</h1>'
 st.markdown(title, unsafe_allow_html=True)
 
-sub_heading = '<p style="color:#4861C9;text-align:center; font-size: 2rem">Please give me five numbers</p>'
+sub_heading = '<p style="color:#4861C9;text-align:center; font-size: 2rem">Please give me three numbers</p>'
 st.markdown(sub_heading, unsafe_allow_html=True)
 
-st.markdown(" :red[Please give me 3 numbers, I'll give you the smaller and bigger ones]")
+
 
 
 
