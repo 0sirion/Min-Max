@@ -28,7 +28,13 @@ st.markdown(
 
 
 def main():
-   slider = st.slider(label='Choose a number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
+   
+   x1 = st.slider(label='Choose the first number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
+   
+   x2 = st.slider(label='Choose the second number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
+
+   x3 = st.slider(label='Choose the third  number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
+
    button =st.button('Retrieve value')
 
 
