@@ -14,7 +14,7 @@ st.markdown(
         f"""
          <style>
          .stApp {{
-             background-image: url("https://shorturl.at/himn0");
+             background-image: url("https://i.redd.it/ihfnlpbze7o01.jpg");
              background-attachment: fixed;
              background-size: cover;
          }}
