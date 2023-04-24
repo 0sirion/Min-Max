@@ -11,18 +11,18 @@ st.markdown(" :red[Please give me 3 numbers, I'll give you the smaller and bigge
 
 
 #   st.subheader("Please insert five numbers: I'll tell you the bigger and smaller")
-# st.markdown(
-#         f"""
-#          <style>
-#          .stApp {{
-#              background-image: url("https://shorturl.at/himn0");
-#              background-attachment: fixed;
-#              background-size: cover;
-#          }}
-#          </style>
-#          """,
-#         unsafe_allow_html=True
-#     )
+st.markdown(
+        f"""
+         <style>
+         .stApp {{
+             background-image: url("https://shorturl.at/himn0");
+             background-attachment: fixed;
+             background-size: cover;
+         }}
+         </style>
+         """,
+        unsafe_allow_html=True
+    )
 
 
 
@@ -45,7 +45,7 @@ def main():
                if num3 > num1 and num3 > num2:
                    st.write("Highest number is" + num3)
 
-   st.write('Here is the result:' + calculate_min_max(x1, x2, x3))
+                   
            
 
 
