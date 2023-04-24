@@ -36,11 +36,11 @@ def calculate_max(num1:float, num2:float, num3:float):
 
 def calculate_min(num1:float, num2:float, num3:float):
      if num1 < num2 and num1 < num3:
-           return st.write("Minor number is: ", num1)
+           return st.write(":blue[Minor number is]: ", num1)
      elif num2 < num1 and num2 < num3:
-          return st.write("Minor number is: ", num2)
+          return st.write(":blue[Minor number is]: ", num2)
      elif num3 < num1 and num3 < num2:
-          return st.write("Minor number is: ", num3)
+          return st.write(":blue[Minor number is]: ", num3)
 
 
 
@@ -55,3 +55,6 @@ def main():
      calculate_min(x1,x2,x3)
 if __name__ == '__main__':
     main()
+
+
+    
