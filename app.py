@@ -43,7 +43,7 @@ x3 = st.slider(label='Choose the third  number', min_value=0, max_value=100, hel
 
 
 def main():
-     st.write('Biggest number is: ', calculate_max(x1,x2,x3))
+    calculate_max(x1,x2,x3)
                    
            
 
