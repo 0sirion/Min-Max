@@ -1,6 +1,6 @@
 import streamlit as st
 
-title = '<h1 style="color:#AA4A44	;text-align:center; font-size: 5rem">Min and Max</h1>'
+title = '<h1 style="color:#AA4A44	;text-align:center; font-size: 4rem">Min and Max</h1>'
 st.markdown(title, unsafe_allow_html=True)
 
 sub_heading = '<p style="color:#4861C9;text-align:center; font-size: 2rem">Please give me three numbers</p>'
