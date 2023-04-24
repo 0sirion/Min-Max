@@ -10,7 +10,6 @@ st.markdown(" :red[Please give me 3 numbers, I'll give you the smaller and bigge
 
 
 
-st.subheader("Please insert five numbers: I'll tell you the bigger and smaller")
 st.markdown(
         f"""
          <style>
