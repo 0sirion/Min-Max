@@ -31,6 +31,17 @@ def calculate_max(num1:float, num2:float, num3:float):
           return st.write("Highest number is: ", num2)
      elif num3 > num1 and num3 > num2:
           return st.write("Highest number is: ", num3)
+     
+
+
+def calculate_min(num1:float, num2:float, num3:float):
+     if num1 < num2 and num1 < num3:
+           return st.write("Minor number is: ", num1)
+     elif num2 < num1 and num2 < num3:
+          return st.write("Minor number is: ", num2)
+     elif num3 < num1 and num3 < num2:
+          return st.write("Minor number is: ", num3)
+
 
 
 def main():
@@ -41,5 +52,6 @@ def main():
      x3 = st.slider(label='Choose the third  number', min_value=0, max_value=100, help='slide to choose', label_visibility='visible')
 
      st.write(calculate_max(x1,x2,x3))
+     st.write(calculate_min(x1,x2,x3))
 if __name__ == '__main__':
     main()
